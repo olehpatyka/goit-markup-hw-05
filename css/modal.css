@@ -95,8 +95,7 @@ body:has(.overlay.is-open) {
     font-size: 12px;
     margin-bottom: 4px;
 
-    /* line-height: 14px; */
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -117,6 +116,7 @@ body:has(.overlay.is-open) {
     transition-property: border-color;
 }
 .modal-input-icon {
+    fill: #2e2f42;
     position: absolute;
     top: 50%;
     left: 16px;
@@ -126,7 +126,7 @@ body:has(.overlay.is-open) {
 }
 
 .modal-input:focus + .modal-input-icon {
-    fill: #404bbf;
+    fill: #4d5ae5;
 }
 
 .modal-textarea {
@@ -136,13 +136,13 @@ body:has(.overlay.is-open) {
 }
 .modal-input:focus,
 .modal-textarea:focus {
-    border-color: #404bbf;
+    border-color: #4d5ae5;
 }
 .modal-textarea::placeholder {
     font-size: 12px;
 
     /* line-height: 14px; */
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgb(46 47 66 / 40%);
 }
@@ -192,12 +192,11 @@ body:has(.overlay.is-open) {
 .modal-privacy-text {
     font-size: 12px;
 
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
 .modal-privacy-link {
-    line-height: 1.33;
     text-decoration: underline;
     color: #4d5ae5;
 }
