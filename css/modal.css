@@ -83,8 +83,11 @@ body:has(.overlay.is-open) {
 .modal-field-wraper {
     display: flex;
     flex-direction: column;
+}
+.modal-field-wraper:not(:last-child) {
     margin-bottom: 8px;
 }
+
 .modal-input-icon-wraper {
     position: relative;
 }
