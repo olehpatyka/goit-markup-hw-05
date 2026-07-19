@@ -30,6 +30,15 @@ a {
     color: inherit;
 }
 
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
 .accent {
     color: #4d5ae5;
 }
